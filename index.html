@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HerbalMind Australia | Natural Wellness</title>
+  <meta name="description" content="HerbalMind is an Australian wellness brand offering natural herbal products crafted for everyday balance and better living." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#">
+        <span>🌿 HerbalMind</span>
+      </a>
+      <nav class="primary-nav">
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Natural wellness for everyday life</h1>
+          <p>Thoughtfully made herbal essentials designed for Australian lifestyles. Clean ingredients. No fuss. Just what your day needs.</p>
+          <a class="btn" href="#products">Explore Products</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <h2>Featured Products</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Mugwort Comfort Patch</h3>
+            <p>Gentle heat and botanical aroma for daily relaxation.</p>
+            <p class="price">AU$14.90</p>
+          </div>
+          <div class="card">
+            <h3>Herbal Warming Pads</h3>
+            <p>Targeted warmth that feels good after long workdays.</p>
+            <p class="price">AU$12.50</p>
+          </div>
+          <div class="card">
+            <h3>Aromatherapy Roll-On</h3>
+            <p>Clean botanical blend for focus and calm on the go.</p>
+            <p class="price">AU$18.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2>About HerbalMind</h2>
+        <p>HerbalMind began with a simple idea: wellness should be simple, natural, and reliable. We partner with trusted suppliers and keep production small and consistent. No complicated rituals—just helpful products that fit into real life.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email us at <a href="mailto:hello@herbalmind.com.au">hello@herbalmind.com.au</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> HerbalMind Australia. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
